@@ -16,4 +16,6 @@ spec:
   type: service
   lifecycle: production
   owner: shopping-team
+  consumesApis:
+    - auth-api
 
