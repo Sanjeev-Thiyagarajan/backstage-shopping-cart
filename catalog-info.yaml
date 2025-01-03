@@ -14,7 +14,7 @@ metadata:
       type: admin-dashboard
 spec:
   dependsOn:
-    - component: auth-service
+    - component:auth-service
   type: service
   lifecycle: production
   owner: shopping-team
