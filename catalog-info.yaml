@@ -13,6 +13,8 @@ metadata:
       icon: dashboard
       type: admin-dashboard
 spec:
+  dependsOn:
+    - component: auth-service
   type: service
   lifecycle: production
   owner: shopping-team
